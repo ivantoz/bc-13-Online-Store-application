@@ -19,3 +19,6 @@ every store created on the platform should have a shareable public URL
 ### Front End Dependencies
 *  The front end heavily relies on HTML5 and CSS frameworks including;
     *  **[Flask-Bootsrap](https://pythonhosted.org/Flask-Bootstrap/)** - Flask-Bootstrap packages Bootstrap into an extension that mostly consists of a blueprint named ‘bootstrap’. It can also create links to serve Bootstrap from a CDN.
+    
+## Routes, methods and functionality
+*  To create new online shop, visit `/register` while the app is running and fill in the registration form.
