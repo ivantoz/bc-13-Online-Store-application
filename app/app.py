@@ -67,7 +67,8 @@ def landing():
 
 @app.route('/index')
 def index():
-	return render_template("index.html")
+    products = Products.query.all()
+    return render_template("index.html", products=products)
 
 
 @app.route('/login', methods=['GET', 'POST'])
